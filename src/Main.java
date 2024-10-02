@@ -32,12 +32,12 @@ public class Main {
 
         int speed1 = 150;
         int speed2 = 50;
-        if (speed1 >= 61) {
+        if (speed1 > 60) {
             System.out.println("Если скорост " + speed1 + ", то придется заплатить штраф");
         } else {
             System.out.println("Если скорост " + speed1 + ", можно ездить спокойно");
         }
-        if (speed2 >= 61) {
+        if (speed2 > 60) {
             System.out.println("Если скорост " + speed2 + ", то придется заплатить штраф");
         } else {
             System.out.println("Если скорост " + speed2 + ", можно ездить спокойно");
@@ -46,6 +46,11 @@ public class Main {
 
 
         int age5 = 20;
+        int age6 = 3;
+        int age7 = 8;
+        int age8 = 40;
+
+
         if (age5 >= 2 && age5 <=6) {
             System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить в садик");
         }
@@ -58,8 +63,55 @@ public class Main {
         if (age5 >= 25) {
             System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить на работу");
         }
-        System.out.println(" ");
 
+
+        if (age6 >= 2 && age6 <=6) {
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить в садик");
+        }
+        if (age6 >= 7 && age6 <=17) {
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить в школу");
+        }
+        if (age6 >= 18 && age6 <=24) {
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить в универ");
+        }
+        if (age6 >= 25) {
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить на работу");
+        }
+
+
+        if (age7 >= 2 && age7 <=6) {
+            System.out.println("Если возраст человека равен " + age7 + ", то ему нужно ходить в садик");
+        }
+        if (age7 >= 7 && age7 <=17) {
+            System.out.println("Если возраст человека равен " + age7 + ", то ему нужно ходить в школу");
+        }
+        if (age7 >= 18 && age7 <=24) {
+            System.out.println("Если возраст человека равен " + age7 + ", то ему нужно ходить в универ");
+        }
+        if (age7 >= 25) {
+            System.out.println("Если возраст человека равен " + age7 + ", то ему нужно ходить на работу");
+        }
+
+
+        if (age8 >= 2 && age8 <=6) {
+            System.out.println("Если возраст человека равен " + age8 + ", то ему нужно ходить в садик");
+        }
+        if (age8 >= 7 && age8 <=17) {
+            System.out.println("Если возраст человека равен " + age8 + ", то ему нужно ходить в школу");
+        }
+        if (age8 >= 18 && age8 <=24) {
+            System.out.println("Если возраст человека равен " + age8 + ", то ему нужно ходить в универ");
+        }
+        if (age8 >= 25) {
+            System.out.println("Если возраст человека равен " + age8 + ", то ему нужно ходить на работу");
+        }
+
+
+
+
+
+
+        System.out.println(" ");
         int childAge = 9;
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе.");
