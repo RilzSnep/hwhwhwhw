@@ -14,7 +14,6 @@ public class Main {
         }
         System.out.println(" ");
 
-
         int temp1 = -20;
         int temp2 = 19;
         if (temp1 >= 5) {
@@ -29,14 +28,7 @@ public class Main {
         }
         System.out.println(" ");
 
-
-        int speed1 = 150;
         int speed2 = 50;
-        if (speed1 > 60) {
-            System.out.println("Если скорост " + speed1 + ", то придется заплатить штраф");
-        } else {
-            System.out.println("Если скорост " + speed1 + ", можно ездить спокойно");
-        }
         if (speed2 > 60) {
             System.out.println("Если скорост " + speed2 + ", то придется заплатить штраф");
         } else {
