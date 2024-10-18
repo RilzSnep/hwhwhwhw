@@ -7,7 +7,7 @@ public class Main {
             System.out.println("Потребуется дней: 2");
         } else if (distance > 60 && distance <= 100) {
             System.out.println("Потребуется дней: 3");
-        } else if (distance > 100){
+        } else if (distance > 100) {
             System.out.println("Свыше 100 км доставки нет.");
         }
     }
