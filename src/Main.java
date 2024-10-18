@@ -15,7 +15,7 @@ public class Main {
 
     public static void versionAdvice(int clientDeviceYear, int androidOrIos) {
         System.out.println("Задание 2");
-        if (androidOrIos == 0 && clientDeviceYear == 2024) {
+        if (androidOrIos == 0 && clientDeviceYear == 2015) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else if (androidOrIos == 0 && clientDeviceYear != 2024) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
